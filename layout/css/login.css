@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background: url(../img/background_5.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  width: 100%;
+  height: 70px;
+  background: #111113;
+  text-align: center;
+  position: fixed;
+  top: 0;
+}
+
+nav img{
+  width: 6%;
+  padding-top: 9px;
+}
+
+.user_forms-login{
+  position: absolute;
+  top: 30%;
+  left: 39%;
+  width: calc(25% - 30px);
+  min-height: 330px;
+  background-color: #fff;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.4);
+          text-align: center;
+
+}
+
+i{
+  font-size: 45px;
+  padding: 30px 0 15px;
+  font-family: poppins;
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #111113;
+  letter-spacing: 2px;
+}
+
+input{
+  background-color: transparent;
+  width: 300px;
+  text-align: center;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border: 1px solid #111113;
+  font-size: 16px;
+  color: #111113;
+  font-family: poppins;
+}
+
+.forms_form{
+  margin-top: 40px;
+  text-align: center;
+}
+
+input::placeholder{
+    font-family: poppins;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #111113;
+
+}
+
+.btn-warning{
+    margin-top: 10px;
+    border-radius: 0px;
+    background: #111113;
+    border: none;
+    color: #fff; 
+    padding: 0;
+    height: 50px;
+    width: 300px;
+    font-size: 17px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.fa-angle-right{
+  font-size: 30px;
+  padding-top: 12px;
+  margin: 0;
+  font-family: poppins;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.btn-warning:hover{
+  padding-left: 15px;
+  transition: 0.3s;
+}
+
+footer{
+  width: 100%;
+  height: 70px;
+  background: #111113;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p{
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ffc107;
+  letter-spacing: 2px;
+  line-height: 70px;
+}
+
+footer i{
+  display: inline-block;
+  color: #ffc107;
+  font-size: 30px;
+  padding: 0;
+  margin: 0 20px;
+}
